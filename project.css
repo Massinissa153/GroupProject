@@ -1,0 +1,262 @@
+/* Author: Massinissa Oukaci  */
+/* Date  : March 7,2022*/
+/*description: style sheet for the final project */
+
+
+
+@import     url("fonts/appleberry.css");
+@import     url("fonts/banksia.css");
+
+
+
+
+body        {background-color: rgb(240,240,240);}
+#wrapper    {width : 480px;
+             margin-left: auto;
+			 margin-right: auto}
+			 
+			 
+header      {font: 1.5em 'AppleberryRegular';
+         	text-align: center;
+             background-color: rgb(190,190,190);
+			 border-radius: 25px 25px 0px 0px;
+			 text-shadow: 3px 3px 4px rgba(0,0,0, 0.5);}
+p            {font : 1em 'BanksiaRegular';}
+
+nav p       { border-radius: 5px 5px 5px 5px;}
+
+nav         { background-color: rgb(200,200,200);}
+a:link,
+a:visited {text-decoration: underline;
+	           color:rgb(10,10,10);}
+	
+	a:hover {text-shadow: 5px 5px 5px rgb(100,100,80);}
+             
+
+figure.box1    { margin:30px 0px;
+	          background-color: rgb(220,220,220);}
+img      {width: 100%;
+           border-radius: 5px 5px 5px 5px;}
+		   
+article.box2 { background-color: rgb(150,150,150);}
+
+article.box3 {background-color:rgb(130,120,110);}
+article.box4 {background-color: rgb(120,110,100);}
+
+figure.box2,
+figure.box3    { margin:30px 0px;
+	          background-color: rgb(220,220,220);}
+article.box6 {width: 100%;
+               background-color:rgb(150,150,160);}
+			   
+figure.box4,
+figure.box4,
+figure.box4,
+figure.box4    { margin:30px 0px;}
+
+ .oneTwenty	{	width: 120px; 
+					display: block;
+					float: left;
+					clear:left;
+                margin-bottom: 20px;}
+				
+
+
+
+
+footer { background-color: rgb(230,230,230);
+         border-radius: 0px 0px 10px 10px; }
+	
+
+
+
+
+
+@media screen and (min-width: 1024px)
+{
+ #wrapper     { width:1024px;
+ 
+               margin:0 auto;}
+			   
+header       { background-color: rgb(140,150,130);
+                 text-align: center;}    
+			
+
+nav p      { margin: 25px 0px 10px 85px;
+               width: 70px;
+			    float: left;
+				clear:right;
+             	height:40px;
+                background-color: rgb(255,255,255);		   }
+a:link,
+	a:visited {text-decoration: underline;
+	            color:rgb(0,0,0);}
+	
+	a:hover {text-shadow: 5px 5px 5px rgb(100,100,100);}
+				
+ figure.box1 { width: 45%;
+             height:450px;
+            margin:20px 0px 20px 0px;
+			
+            float:right;
+			background-color:rgb(150,155,140);
+			border-radius:5px 5px 5px 5px;
+            }
+
+
+article   { width: 45%;
+             height:450px;
+	      
+		   float: left;
+		   
+            margin: 20px 0px 20px 0px;
+			background-color: rgb(150,155,140);
+			border-radius: 5px 5px 5px 5px;
+           }
+article.box3 { width: 45%;
+             height:450px;
+            margin:20px 0px 20px 0px;
+			
+            float:right;
+			background-color:rgb(150,155,140);
+			border-radius:5px 5px 5px 5px;
+            }
+
+article.box4   { width: 45%;
+             height:450px;
+	      
+		   float: left;
+		   
+            margin: 20px 0px 20px 0px;
+			background-color: rgb(150,155,140);
+			border-radius: 5px 5px 5px 5px;
+           }
+figure.box2 { width: 45%;
+   
+            
+            
+           margin:20px 0px 00px 0px;
+			
+            float:right;
+			
+			border-radius:5px 5px 5px 5px;
+            }
+
+figure.box3 { width: 45%;
+              float: left;
+		   
+            margin: 20px 100px 20px 0px;
+			
+			border-radius: 5px 5px 5px 5px;
+           }
+article.box5 {float: right;
+             
+	          height:270px;
+			  clear: right;}
+
+figure.box4 { width: 42%;
+              float: left;
+			  clear: left;
+		   
+            margin: 20px 100px 20px 0px;
+			
+			border-radius: 5px 5px 5px 5px;
+           }
+figure.box5 { width: 42%;
+              float: right;
+			  clear: right;
+		   
+            margin: 20px 0px 20px 0px;
+			
+			border-radius: 5px 5px 5px 5px;
+           }
+figure.box6 { width: 42%;
+              float: left;
+		   
+            margin: 20px 100px 20px 0px;
+			background-color: rgb(150,155,140);
+			border-radius: 5px 5px 5px 5px;
+           }
+figure.box7 { width: 42%;
+              float: right;
+		   
+            margin: 20px 0px 20px 0px;
+			background-color: rgb(150,155,140);
+			border-radius: 5px 5px 5px 5px;
+           }
+		   
+article.box7 {
+               width: 45%;
+             float: left;}
+			
+aside  {float: right;
+         
+         width:45%;
+		 height: 450px;
+         margin: 20px 0px 20px 0px;	
+         border-radius: 5px 5px 5px 5px;		 }
+ 
+   
+ 
+footer   { clear:both;
+          background-color: rgb(157,152,142); }
+           
+}
+
+@media screen and (min-width: 1280px)
+{
+#wrapper    {width: 1280px;}	
+nav  {
+        width:100%;
+		height:100px;
+         margin: 20px 110px 0px 0px;
+		 background-color:rgb(150,155,140);
+		 border-radius: 0px 5px 5px 0px;}
+
+		 
+nav p      { margin: 25px 0px 10px 120px;
+               width: 70px;
+			    float: left;
+				clear:right;
+             	height:40px;
+                background-color: rgb(255,255,255);		   }
+	 
+
+figure.box1  { width: 45%;
+             height:300px;
+	      
+		   float: right;
+		   
+            margin: 20px 0px 20px 0px;
+			background-color: rgb(150,155,140);
+			border-radius: 5px 5px 5px 5px;
+           }
+article.box2 {height:580px;}
+article.box5 {height:350px;}
+
+
+	
+}
+@media print 
+{
+	
+body  {background-color:rgb(255,255,255);}	
+	
+	wrapper { width: 100%;}
+	
+	header, 		  
+	article.box1, article.box2,
+article.box3,article.box4,
+article.box5, article.box6,
+article.box7, figure.box1, 
+figure.box2, figure.box3,
+figure.box4, figure.box5,
+figure.box6, figure.box7,
+footer               	{ background: none;}
+	
+	
+			  
+    nav , img     {display: none;}
+  
+}
+  

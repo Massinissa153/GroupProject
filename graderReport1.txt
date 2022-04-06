@@ -1,0 +1,214 @@
+GRADE moukali PROJECT: DRAFT 1
+Date: Tue Mar  8 08:14:44 EST 2022
+----------------------
+----HTML File List:
+
+     1	-rw-r--r-- 1 moukali users 2646 Mar  7 13:50 about.html
+     2	-rw-r--r-- 1 moukali users 1670 Mar  7 13:50 contactus.html
+     3	-rw-r--r-- 1 moukali users 1386 Mar  7 13:50 index.html
+     4	-rw-r--r-- 1 moukali users 1481 Mar  7 13:50 ourwork.html
+     5	-rw-r--r-- 1 moukali users 1553 Mar  7 13:50 products.html
+     6	-rw-r--r-- 1 moukali users 2054 Mar  7 13:50 services.html
+--------------------
+     1	-rw-r--r-- 1 moukali users  885 Mar  7 13:49 fonts/anudaw.css
+     2	-rw-r--r-- 1 moukali users  560 Mar  7 13:49 fonts/appleberry.css
+     3	-rw-r--r-- 1 moukali users 1271 Mar  7 13:49 fonts/banksia.css
+     4	-rw-r--r-- 1 moukali users  536 Mar  7 13:50 fonts/grutchshaded.css
+     5	-rw-r--r-- 1 moukali users  403 Mar  7 13:50 fonts/hvdbodedo.css
+     6	-rw-r--r-- 1 moukali users  501 Mar  7 13:50 fonts/journal.css
+     7	-rw-r--r-- 1 moukali users  604 Mar  7 13:50 fonts/kingthings.css
+     8	-rw-r--r-- 1 moukali users 1867 Mar  7 13:50 fonts/merriweather.css
+     9	-rw-r--r-- 1 moukali users  482 Mar  7 13:50 fonts/osp-din.css
+    10	-rw-r--r-- 1 moukali users 3281 Mar  7 13:50 fonts/overlock.css
+    11	-rw-r--r-- 1 moukali users 5827 Mar  7 13:51 project.css
+--------STYLE-------
+about.html:8: <link rel="stylesheet" href="project.css"/>
+contactus.html:7: <link rel="stylesheet" href="project.css"/>
+index.html:8: <link rel="stylesheet" href="project.css"/>
+ourwork.html:8: <link rel="stylesheet" href="project.css"/>
+products.html:8: <link rel="stylesheet" href="project.css"/>
+services.html:8: <link rel="stylesheet" href="project.css"/>
+--------IN-LINE STYLE?-------
+contactus.html:29:  <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12232.39049536364!2d-86.1217755!3d39.96157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7d0aad585c69d93!2sStr8-Edge%20barbershop!5e0!3m2!1sen!2sus!4v1646596815040!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+--------FORMS-------
+services.html:27:<form action="chapter09.php"
+contactus.html:33:    <h4>Email me at:<a href="mailto:Lavaguebleu@gmail.com">Lavaguebleu@gmail</a></h4>
+services.html:33:        <input type="text" name="fname" placeholder="First Name" required autofocus /></p>
+services.html:35:	    <input type="text" name="lname" placeholder="Last Name" /></p>
+services.html:37:	   <input type="email" name="email" placeholder="Email Address" required /></p>
+services.html:39:       <input type="date" name="date"  /></p>	
+services.html:41:	   <input type="number" name="favnum" required /></p>
+services.html:43:<input type="reset" name="reset" value="Clear form" />
+services.html:44:   <input type="submit" name="submit" value="Send" />
+--------SEO-------
+about.html:6: <meta name="description" content="This is a website for one of the best barbershops in Carmel barbershop">
+contactus.html:5: <meta name="description" content="This is a website for one of the best barbershops in Carmel barbershop">
+index.html:6: <meta name="description" content="This is a website for one of the best barbershops in Carmel barbershop">
+ourwork.html:6: <meta name="description" content="This is a website for one of the best barbershops in Carmel barbershop">
+products.html:6: <meta name="description" content="This is a website for one of the best barbershops in Carmel barbershop">
+services.html:6: <meta name="description" content="This is a website for one of the best barbershops in Carmel barbershop">
+---Is the PKW in the TITLE?-------------------
+about.html:4: <title>Things to know about our barbershop</title>
+contactus.html:3: <title>Contact Str8-Edge barbershop</title>
+index.html:4: <title>Str8-Edge barbershop</title>
+ourwork.html:4: <title>Picture of Str8-Edge Barbershop</title>
+products.html:4: <title>Products to take care of your hair and beard</title>
+services.html:4: <title>Services we provide at STR8-Edge Barbershop</title>
+--------HTML5-----
+about.html:13:<header>
+contactus.html:13:<header>
+index.html:12:<header>
+ourwork.html:13:<header>
+products.html:13:<header>
+services.html:13:<header>
+about.html:17:<nav>
+contactus.html:17:<nav>
+index.html:15: <nav>
+ourwork.html:17:<nav>
+products.html:17:<nav>
+services.html:17:<nav>
+about.html:27:<article class="box3">
+about.html:32:<article class="box4">
+contactus.html:27:<article class="box7" >
+index.html:33:<article class="box2">
+products.html:41:<article class="box5" >
+services.html:47:<article class="box6">
+contactus.html:32:<aside>
+index.html:26:<figure class="box1">
+ourwork.html:27:<figure class="box4">
+ourwork.html:32:<figure class="box5">
+ourwork.html:37:<figure class="box6">
+ourwork.html:42:<figure class="box7">
+products.html:27:<figure class="box2">
+products.html:34:<figure class="box3">
+about.html:37:<footer>
+contactus.html:41:<footer>
+index.html:46: <footer>
+ourwork.html:46:<footer>
+products.html:48:<footer>
+services.html:57:<footer>
+---------------------SERVING ANY DIV SOUP?-----------
+about.html:12:<div id="wrapper">
+contactus.html:12:<div id="wrapper">
+index.html:11:<div id="wrapper">
+ourwork.html:12:<div id="wrapper">
+products.html:12:<div id="wrapper">
+services.html:12:<div id="wrapper">
+---------------------SERVING ANY DIV SOUP?-----------
+--------TABLES-------
+--------MULTIMEDIA-----
+contactus.html:29:  <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12232.39049536364!2d-86.1217755!3d39.96157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7d0aad585c69d93!2sStr8-Edge%20barbershop!5e0!3m2!1sen!2sus!4v1646596815040!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+--------FIGURES & IMAGES-----
+index.html:26:<figure class="box1">
+ourwork.html:27:<figure class="box4">
+ourwork.html:32:<figure class="box5">
+ourwork.html:37:<figure class="box6">
+ourwork.html:42:<figure class="box7">
+products.html:27:<figure class="box2">
+products.html:34:<figure class="box3">
+index.html:28:	    <img src="images/pic1400x400.png" alt="Barbershop logo">
+ourwork.html:28:   <img src="images/ourwork1400x400.png" alt=" Man haircut">
+ourwork.html:33:   <img src="images/ourwork2400x400.png" alt="beard trim">
+ourwork.html:38:   <img src="images/ourwork3400x400.png" alt=" haircut and beard trim">
+ourwork.html:43:   <img src="images/ourwork4400x400.png" alt="Kids haircut">
+products.html:29:	    <img src="images/products400.png" alt="Hair care profucts">
+products.html:36:	    <img src="images/product400.png" alt="Products to take care of your hair">
+index.html:28:	    <img src="images/pic1400x400.png" alt="Barbershop logo">
+ourwork.html:28:   <img src="images/ourwork1400x400.png" alt=" Man haircut">
+ourwork.html:33:   <img src="images/ourwork2400x400.png" alt="beard trim">
+ourwork.html:38:   <img src="images/ourwork3400x400.png" alt=" haircut and beard trim">
+ourwork.html:43:   <img src="images/ourwork4400x400.png" alt="Kids haircut">
+products.html:29:	    <img src="images/products400.png" alt="Hair care profucts">
+products.html:36:	    <img src="images/product400.png" alt="Products to take care of your hair">
+products.html:28:     <figcaption class="a"> 
+products.html:35:    <figcaption class="b">
+--------EXTERNAL LINKS-----
+--------FONTS-----
+@import     url("fonts/appleberry.css");
+@import     url("fonts/banksia.css");
+project.css:7:@import     url("fonts/appleberry.css");
+project.css:8:@import     url("fonts/banksia.css");
+project.css:19:header      {font: 1.5em 'AppleberryRegular';
+project.css:24:p            {font : 1em 'BanksiaRegular';}
+--------MEDIA QUERIES-----
+project.css:75:@media screen and (min-width: 1024px)
+project.css:206:@media screen and (min-width: 1280px)
+project.css:240:@media print 
+--------COMMENTS------
+about.html:<!doctype html>		<!-- Author:     Massinissa Oukaci -->
+about.html:<html lang="en">     <!--Date:        March 7, 2022 -->
+about.html: <!-- embed or link to the external style sheet for Exam 1 -->
+contactus.html:<!doctype html>		<!-- Author:     Massinissa Oukaci -->
+contactus.html:<head>               <!--Date:        March 7, 2022 -->
+contactus.html: <!-- embed or link to the external style sheet for Exam 1 -->
+index.html:<!doctype html>		<!-- Author:     Massinissa Oukaci -->
+index.html:<html lang="en">    <!--Date:        March 7, 2022 -->
+ourwork.html:<!doctype html>		<!-- Author:     Massinissa Oukaci -->
+ourwork.html:<html lang="en">    <!--Date:        March 7, 2022 -->
+ourwork.html: <!-- embed or link to the external style sheet for Exam 1 -->
+products.html:<!doctype html>		<!-- Author:     Massinissa Oukaci -->
+products.html:<html lang="en">     <!--Date:        March 7, 2022 -->
+products.html: <!-- embed or link to the external style sheet for Exam 1 -->
+services.html:<!doctype html>		<!-- Author:     Massinissa Oukaci -->
+services.html:<html lang="en">     <!--Date:        March 7, 2022 -->
+services.html: <!-- embed or link to the external style sheet for Exam 1 -->
+CSS Comments:
+     1	/* Author: Massinissa Oukaci  */
+     2	/* Date  : March 7,2022*/
+     3	/*description: style sheet for the final project */
+     4	
+     5	
+*****************JAVASCRIPT CRITERIA********************
+----Locations of all external <script> SRC:
+about.html:41:<script src="scripts/project.js"> </script>
+contactus.html:45:<script src="scripts/project.js"> </script>
+index.html:50:<script src="scripts/project.js"> </script>
+ourwork.html:50:<script src="scripts/project.js"> </script>
+products.html:52:<script src="scripts/project.js"> </script>
+services.html:62:<script src="scripts/project.js"> </script>
+---DATA TYPES-------------------
+scripts/project.js:6:var services = ['Haircuts', 'Beard Trim']
+scripts/project.js:10:	var outputString = "";
+scripts/project.js:11:	var outputElement = document.getElementById("services");
+scripts/project.js:13:	for (var i=0; i<services.length; i++)
+scripts/project.js:23: var currentYear = new Date().getFullYear();
+scripts/project.js:24: var dateContainer = document.getElementById("year");
+---EVENT-DRIVEN CONTENT-------------------
+contactus.html:29:  <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12232.39049536364!2d-86.1217755!3d39.96157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7d0aad585c69d93!2sStr8-Edge%20barbershop!5e0!3m2!1sen!2sus!4v1646596815040!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+services.html:33:        <input type="text" name="fname" placeholder="First Name" required autofocus /></p>
+scripts/project.js:36: { window.addEventListener("load",init,false); }
+scripts/project.js:38:{ window.attachEvent("onload",init); }
+------AT LEAST 2 OF THE FOLLOWING-----------
+--------------------------------------------SELECTION
+scripts/project.js:35: if (window.addEventListener)
+scripts/project.js:37:else if (window.attachEvent)
+--------------------------------------------ITERATION
+ 
+scripts/project.js:13:	for (var i=0; i<services.length; i++)
+-----------------------------------------------USER-DEFINED ARRAYS
+scripts/project.js:6:var services = ['Haircuts', 'Beard Trim']
+ 
+-------------------------------USER-DEFINED FUNCTIONS
+scripts/project.js:8:function displayServices()
+scripts/project.js:20:function insertCopyright()
+scripts/project.js:29:function init ()
+ 
+-------------------------------DOM MANIPULATION
+scripts/project.js:15: outputElement.innerHTML = outputString;
+scripts/project.js:25: dateContainer.innerHTML = currentYear;
+-------------------------------EVENT HANDLING
+scripts/project.js:35: if (window.addEventListener)
+scripts/project.js:36: { window.addEventListener("load",init,false); }
+scripts/project.js:37:else if (window.attachEvent)
+scripts/project.js:38:{ window.attachEvent("onload",init); }
+====================================================
+====================================================
+----HTML File List:
+
+     1	-rw-r--r-- 1 moukali users 2646 Mar  7 13:50 about.html
+     2	-rw-r--r-- 1 moukali users 1670 Mar  7 13:50 contactus.html
+     3	-rw-r--r-- 1 moukali users 1386 Mar  7 13:50 index.html
+     4	-rw-r--r-- 1 moukali users 1481 Mar  7 13:50 ourwork.html
+     5	-rw-r--r-- 1 moukali users 1553 Mar  7 13:50 products.html
+     6	-rw-r--r-- 1 moukali users 2054 Mar  7 13:50 services.html
+=================================================END

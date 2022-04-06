@@ -1,0 +1,66 @@
+<!doctype html>		<!-- Author:     Massinissa Oukaci -->
+<html lang="en">     <!--Date:        March 7, 2022 -->
+<head>
+ <title>Services we provide at STR8-Edge Barbershop</title>
+ <meta charset="utf-8" />
+ <meta name="description" content="Here at Str8-Edge barbershop, we offer the best services in the area, from haircuts to beard trim, while following covid safety measures">
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <link rel="stylesheet" href="project.css"/>
+ <!-- embed or link to the external style sheet for Exam 1 -->
+</head>
+<body>
+<div id="wrapper">
+<header>
+  <h1>Welcome To Str8-Edge Barbershop</h1>
+  <h2>Services</h2>
+</header>
+<nav>
+     <P><a href="index.html">Home</a></p>
+	 <p><a href="about.html">About us</a></p>
+	 <p><a href="products.html">products</a></p>
+	 <p><a href="services.html">Services</a></p>
+	 <p><a href="ourwork.html">Our work</a></p>
+	 <p><a href="contactus.html">Contact Us</a></p>
+	  
+</nav>
+
+<form action="processForm.php"
+      method="post">
+     
+<fieldset id="personal">
+    <legend>Book an appointment</legend>
+	<p> please click on this link to book an appointmemt:<a href="https://booksy.com/en-us/19430_str8-edge-barbershop_barber-shop_19574_carmel#ba_s=vl_1">Book an appointment</a>.</p>
+	<p><label class="oneTwenty">First Name:</label>
+        <input type="text" name="fname" placeholder="First Name" required autofocus /></p>
+	<p><label class="oneTwenty">Last Name:</label>
+	    <input type="text" name="lname" placeholder="Last Name" /></p>
+	<p><label class="oneTwenty">Email:</label>
+	   <input type="email" name="email" placeholder="Email Address" required /></p>
+	<p><label class="oneTwenty">Date:</label>
+       <input type="date" name="date"  /></p>	
+    <p><label class="oneTwenty">Favorite Number:</label>
+	   <input type="number" name="favnum" required /></p>
+</fieldset>
+<input type="reset" name="reset" value="Clear form" />
+   <input type="submit" name="submit" value="Send" />
+
+
+<article class="box6">
+  <h1>Our Services:</h1>
+  <ul id="services" > </ul>
+
+ 
+</article>
+ 
+ 
+ 
+     
+
+<footer>
+  <p>&copy; 2015-<span id="year">2019</span> Str8-edge barbershop.</p>
+</footer>
+</form>
+</div>
+<script src="scripts/project.js"> </script>
+</body>
+</html>
